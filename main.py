@@ -28,7 +28,6 @@ import smtplib
 current_date = dt.datetime.now()
 current_day= current_date.weekday()
 print(current_day)
-current_day= 0
 
 if current_day == 0:
 	with open('quotes.txt') as file:
